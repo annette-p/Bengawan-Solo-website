@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font type from font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstap/CSS/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Outlet Locations</title>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-gradient py-3">
+        <div class="sm container-fluid md container align-items-center">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="dropdown mb-2">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Select Location
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">East</a></li>
+                          <li><a class="dropdown-item" href="#">West</a></li>
+                          <li><a class="dropdown-item" href="#">North</a></li>
+                          <li><a class="dropdown-item" href="#">Central</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <main>
+      <!-- Location group 1 -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/outlet1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">White Sands</h5>
+              <p class="card-text">1 Pasir Ris Central St 3 #B1-04/05 White Sands
+                Singapore 518457 </p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col text-muted">Click here for location </div>
+              </div>
+              <!-- <small class="text-muted">Buy NOW</small>
+              <small class="text-muted">Add to Cart</small> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/outlet2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bedok Mall</h5>
+              <p class="card-text">311 New Upper Changi Rd, #B2-56 Bedok Mall
+                Singapore 467360 </p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col text-muted">Click here for location</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/outlet1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Parkway Parade, Katong</h5>
+              <p class="card-text">80 Marine Parade Road, B1-80/81 Parkway Parade
+                Singapore 409051</p>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="col text-muted">Click here for location </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Location group 1 -->
+    </main>
+
+    <footer class="footer mt-3">
+      <div class="container py-4 px-5 align-items-center">
+        <div class="row">
+          <div class="col-12 pb-4 col-lg-3">
+            <h3>Follow us</h3>
+            <i class="fab fa-facebook social-media"></i>
+            <i class="fab fa-instagram-square social-media"></i>
+          </div>
+          <div class="col-12 pb-2 col-lg-6">
+            <h3>Frequently Asked Questions</h3>
+            <ul>
+              <li>Order Placement & Cancellations</li>
+              <li>Delivery</li>
+              <li>Add-ons / Giftings</li>
+              <li>Dietary Requirements and Shelf-life</li>
+              <li>Pricing and Promotion </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Contact Us</h3>
+            <h6>Tel: +65 6268 6516</h6>
+            <h6>Email: onlinesupport@fourleaves.com.sg</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstap/Script/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

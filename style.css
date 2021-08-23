@@ -1,0 +1,53 @@
+.form {
+  position: absolute !important;
+  top: 5px;
+  right: 50px;
+  z-index: 5;
+}
+
+.order-tap {
+  width: 240px;
+}
+
+.footer {
+  background-color: rgb(247, 159, 149);
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* bottom: 30px; */
+  width: 100%;
+}
+
+.social-media {
+  font-size: 35px;
+}
+
+/* setting up for mobile */
+@media (min-width: 768px) {
+  .action {
+    bottom: 10px;
+  }
+}
+
+/* setting for iPad screen */
+@media screen and (min-width: 768px) {
+  .feedback {
+    font-size: large;
+    width: 35rem;
+    /* left: 30%; */
+  }
+  .action {
+    bottom: 10px;
+  }
+}
+
+/* setting up for laptop */
+@media (min-width: 768px) {
+  .action {
+    bottom: 25px;
+  }
+}
